@@ -1,0 +1,144 @@
+.flex-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #2874F0;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    /* background-color:rebeccapurple ; */
+    text-align: end;
+    color:white;
+}
+img{
+    height: 20px;
+}
+h1{
+    margin-top: 7px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+strong{
+    line-height: 40px;
+    color: rgb(243, 243, 23);
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search{
+width: 35%;
+
+/* background-color:green ; */
+}
+.fa-search{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 18px;
+    color: #2874F0;
+}
+.fa-cart-shopping{
+    width: 50px;
+    background-color: red;
+}
+.botton{
+width: 15%;
+/* background-color: gray; */
+}
+button{
+    width: 130px;
+    height: 33px;
+    margin-top: 12px;
+    font-weight: 100px;
+    color:  #2874F0;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 2px;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+width: 30%;
+/* background-color: lightsalmon; */
+}
+input{
+    width:90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    outline: 3px white;
+}
+.nav ul li{
+    list-style-type: none;
+}
+ul{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+}
+ul li a{
+    color: white;
+}
+.nav ul i{
+    position: absolute;
+    color:white;
+    margin-left: 190px;
+    font-size: 16px;
+  padding-right: 5px;
+}
+                       /* icon photos */
+.banner-img img{
+    width: 100px;
+    height: 80px;
+    margin-top: 20px;
+}
+.banner-img{
+    display:flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.img-let{
+    display: flex;
+    height: 30px;
+}
+.top-offers{
+    margin-left: 66px;
+}
+.grocery{
+    margin-left: 85px;
+}
+.mobiles{
+    margin-left: 100px;
+}
+.Fashion{
+    margin-left: 100px;
+}
+.Electronics{
+    margin-left:90px;
+}
+.Home{
+    margin-left:90px;
+}
+.Appliances{
+    margin-left: 95px;
+}
+.Travel{
+    margin-left: 100px;
+}
+.Toys{
+    margin:45px;
+}
+.img-let p a{
+    color: black;
+    font-weight: 500px;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+    cursor: pointer;
+}
+.img-let p a:hover{
+color: #2874F0;
+}
